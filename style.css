@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins';
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.slider {
+    background: url(images/img8.jpg);
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 100px;
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.whyus {
+    padding: 50px 0;
+    background-color: lightpink;
+}
+
+.whyus__title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.whyus__icon {
+    text-align: center;
+}
+
+.whyus__icon span {
+    font-size: 40px;
+
+}
+
+.whyus__subtitle {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.offer {
+    padding: 50px 0;
+}
+
+.offer__title {
+
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.offer__desc {
+
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product__title {
+    font-size: 23px;
+    font-weight: 700;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.product__desc {
+
+    padding: 0 15px;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.form {
+    padding: 50px 0;
+    background-color: lightblue;
+}
+
+.form .form-control {
+    margin-bottom: 3px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact__title {
+
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.btn {
+    background-color: orange;
+    border-color: orange;
+}
+
+.btn:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+}
